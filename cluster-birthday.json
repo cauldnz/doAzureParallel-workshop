@@ -1,6 +1,6 @@
 {
     "name": "chauldDemo",
-    "vmSize": "Standard_D2_v3",
+    "vmSize": "Standard_A1_v2",
     "maxTasksPerNode": 8,
     "poolSize": {
       "dedicatedNodes": {
