@@ -1,0 +1,31 @@
+{
+    "name": "chauldDemo",
+    "vmSize": "Standard_D2_v3",
+    "maxTasksPerNode": 8,
+    "poolSize": {
+      "dedicatedNodes": {
+        "min": 0,
+        "max": 0
+      },
+      "lowPriorityNodes": {
+        "min": 2,
+        "max": 2
+      },
+      "autoscaleFormula": "QUEUE"
+    },
+    "containerImage": "rocker/tidyverse:latest",
+    "rPackages": {
+      "cran": [
+        
+      ],
+      "github": [
+        
+      ],
+      "bioconductor": [
+        
+      ]
+    },
+    "commandLine": [
+      
+    ]
+  }
