@@ -1,3 +1,6 @@
+# Setup AZTK per
+# https://blog.revolutionanalytics.com/2018/02/aztk-sparklyr.html 
+
 library(ggplot2)
 library(maps)
 library(geosphere)
